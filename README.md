@@ -17,8 +17,7 @@ Version
 Installation
 ------------
         * Télécharger le clone de l'application 
-        * Dans le terminal de l'éditeur tapez : 
-        `composer install` pour install l'ensemble des dependances du projet
+        * Dans le terminal de l'éditeur tapez : `composer install` pour installer l'ensemble des dependances du projet
         * Configuer la base de données dans le fichier `.env` 
 Test
 ----
