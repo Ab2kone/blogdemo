@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+   <center><h1>Connexion</h1></center>
+    <div class="container"><hr>
+        <div class="row">
+            <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form action="{{ path('security_login') }}" method="POST">
+                        <div class="form_group">
+                            <input type="text" class="form-control" placeholder="Adresse email..." requied name="_username">
+                        </div><br>
+                         <div class="form_group">
+                            <input type="password" class="form-control" placeholder="Mot de passe" requied name="_password">
+                        </div><br>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">Se Connecter</button>
+                        </div>
+                    </form>
+                </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+{% endblock %}
